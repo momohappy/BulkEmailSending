@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Spring Boot Starter E-mail
+server:
+  port: 8082
+debug: true
+email:
+  host: smtp.gmail.com
+  port: 587
+  username: yourEmail@gmail.com
+  password: yourPassword
+  debug: true
+files:
+  email-file-path: emailList.txt
